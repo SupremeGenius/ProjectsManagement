@@ -1,0 +1,24 @@
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.pdb
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMain.resources
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.GUI.frmLogin.resources
+C:\Users\vtkth\OneDrive\C#\C# Nâng Cao 1\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe.config
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.exe
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.exe
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\bin\Debug\ProjectManagement.pdb
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.GUI.frmLogin.resources
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.frmMain.resources
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.Properties.Resources.resources
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csproj.GenerateResource.Cache
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.GUI.frmPartnerManagement.resources
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.View.frmEmployeeDetail.resources
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.View.frmProjectDetail.resources
+C:\Users\vtkth\OneDrive\C#\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.View.frmNewProject.resources

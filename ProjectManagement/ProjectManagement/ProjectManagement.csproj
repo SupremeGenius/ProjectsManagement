@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9AEF526-977C-4734-8610-7AD368A57FED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectManagement</RootNamespace>
+    <AssemblyName>ProjectManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\BLL\tbl_ProjectBLL.cs" />
+    <Compile Include="Model\DAO\tbl_CompanyDAO.cs" />
+    <Compile Include="Model\DAO\tbl_EmployeeDAO.cs" />
+    <Compile Include="Model\DAO\tbl_JoiningDAO.cs" />
+    <Compile Include="Model\DAO\tbl_PartnerDAO.cs" />
+    <Compile Include="Model\DAO\tbl_ProjectDAO.cs" />
+    <Compile Include="Model\DAO\tbl_RoleDAO.cs" />
+    <Compile Include="Model\BLL\tbl_CompanyBLL.cs" />
+    <Compile Include="Model\BLL\tbl_PartnerBLL.cs" />
+    <Compile Include="DTO\tbl_CompanyDTO.cs" />
+    <Compile Include="DTO\tbl_EmployeeDTO.cs" />
+    <Compile Include="DTO\tbl_PartnerDTO.cs" />
+    <Compile Include="DTO\tbl_ProjectDTO.cs" />
+    <Compile Include="View\frmEmployeeDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmEmployeeDetail.Designer.cs">
+      <DependentUpon>frmEmployeeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmNewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmNewProject.Designer.cs">
+      <DependentUpon>frmNewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmPartnerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmPartnerDetail.Designer.cs">
+      <DependentUpon>frmPartnerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\DAO\tbl_AccountDAO.cs" />
+    <Compile Include="Utils\DBConnection.cs" />
+    <Compile Include="Utils\FormatData.cs" />
+    <Compile Include="View\frmProjectDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmProjectDetail.Designer.cs">
+      <DependentUpon>frmProjectDetail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\frmEmployeeDetail.resx">
+      <DependentUpon>frmEmployeeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmNewProject.resx">
+      <DependentUpon>frmNewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPartnerDetail.resx">
+      <DependentUpon>frmPartnerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\frmProjectDetail.resx">
+      <DependentUpon>frmProjectDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curtin Tailoring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20-hinh-nen-powerpoint-theo-phong-cach-gradient-mo-ao-1484733026-15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_318-8688.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_167289.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101791-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-symbol-button-plus-5abd9e8bef3e05.8130286015223763319799.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove-icon-png-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72668468-plus-icon-vector-illustration.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\125795961f40045.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012_restart-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\122-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\positive-symbol-plus-sign-blue-icon-on-vector-clipart_csp44252808.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rTLo5A5zc.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
